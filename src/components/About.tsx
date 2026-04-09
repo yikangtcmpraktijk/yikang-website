@@ -1,5 +1,6 @@
 
 import React from 'react';
+import lobby from "../assets/lobby.jpg"
 
 const About: React.FC = () => {
   return (
@@ -14,8 +15,8 @@ const About: React.FC = () => {
           <div className="w-full lg:w-1/2 relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border border-primary-700 relative z-10">
               <img 
-                src="https://images.unsplash.com/photo-1512290923902-8a92d1d0495e?auto=format&fit=crop&q=80&w=1000"
-                alt="Holistic TCM Treatments" 
+                src={lobby}
+                alt="img_lobby" 
                 className="w-full h-full object-cover opacity-90 hover:scale-105 transition-transform duration-700"
               />
             </div>

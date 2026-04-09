@@ -6,6 +6,7 @@ import Hero from './src/components/Hero';
 import About from './src/components/About';
 import Services from './src/components/Services';
 import Contact from './src/components/Contact';
+import nbcg from "./src/assets/nbcg_1.png";
 
 function App() {
   const [isContractOpen, setIsContractOpen] = useState(false);
@@ -24,13 +25,18 @@ function App() {
         <div className="container mx-auto px-4 grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-serif text-gold-400 text-xl mb-4">YIKANG TCM PRAKTIJK</h3>
-            <p className="text-sm leading-relaxed max-w-xs text-primary-300">
-              Lid van NBCG-YI | Traditionele Chinese Geneeskunde | Kwaliteitsgeregistreerd.
-            </p>
-            <p className="mt-4 text-sm text-primary-300">
-              Amsterdamse Veerkade 17<br/>
-              2512AG Den Haag
-            </p>
+            <div className="flex items-center">
+              <img src={nbcg} alt="yikang_nbcg" className="mr-4 w-32 h-32" />
+              <div>
+                <p className="text-sm leading-relaxed max-w-xs text-primary-300">
+                Lid van NBCG-YI | Traditionele Chinese Geneeskunde | Kwaliteitsgeregistreerd.
+                </p>
+                <p className="mt-4 text-sm text-primary-300">
+                  Amsterdamse Veerkade 17<br/>
+                  2512AG Den Haag
+              </p>
+              </div>
+            </div>
           </div>
           <div>
             <h4 className="text-white font-bold mb-4 uppercase text-sm tracking-wider">Info & Links</h4>
