@@ -13,7 +13,6 @@ const Services: React.FC = () => {
       id: 'acupuncture' as ServiceId,
       title: 'Acupunctuur',
       description: "Acupunctuur is een behandelvorm binnen de Traditionele Chinese Geneeskunde waarbij zeer dunne naaldjes op specifieke punten in het lichaam worden geplaatst. Deze techniek ondersteunt de doorstroming van energie, bevordert het natuurlijke herstelvermogen en helpt bij het verminderen van pijn en diverse lichamelijke en emotionele klachten. Acupunctuur is een veilige, effectieve en breed inzetbare therapie voor zowel acute als chronische gezondheidsproblemen.",
-      image: 'https://images.unsplash.com/photo-1616341333499-37f39b4513a6?auto=format&fit=crop&q=80&w=800',
       priceFrom: '€30',
       features: ['Intake & Diagnose', 'Klassieke Acupunctuur', 'Ooracupunctuur', 'Combinaties']
     },
@@ -89,11 +88,11 @@ const Services: React.FC = () => {
               className="relative bg-primary-800/40 backdrop-blur-sm rounded-xl overflow-hidden shadow-2xl border border-primary-700/50 hover:border-gold-500/30 hover:bg-primary-800/60 hover:shadow-[0_10px_40px_-10px_rgba(0,0,0,0.5)] hover:-translate-y-2 transition-all duration-500 flex flex-col text-left group focus:outline-none focus:ring-2 focus:ring-gold-500/50"
             >
               <div className="h-56 overflow-hidden w-full relative">
-                <img 
+                {/* <img 
                   src={service.image} 
                   alt={service.title} 
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 opacity-80 group-hover:opacity-100 grayscale-[30%] group-hover:grayscale-0"
-                />
+                /> */}
                 <div className="absolute inset-0 bg-gradient-to-t from-primary-900 via-transparent to-transparent opacity-80" />
                 <div className="absolute top-4 right-4 bg-gold-600/90 backdrop-blur text-white px-3 py-1 rounded text-xs font-bold tracking-widest uppercase opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
                     Bekijk Prijzen

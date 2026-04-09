@@ -36,7 +36,7 @@ const Header: React.FC = () => {
       }`}
     >
       {/* Holiday Notice Banner */}
-      {showNotice && (
+      {/* {showNotice && (
         <div className="bg-gradient-to-r from-gold-700 to-gold-500 text-white text-xs md:text-sm py-2 px-8 text-center relative w-full z-50">
           <p className="font-medium tracking-wide">
             🎄 <span className="font-bold">Kerstsluiting:</span> Wij zijn gesloten op 25.26 en 27 december 2025. Fijne feestdagen!
@@ -49,7 +49,7 @@ const Header: React.FC = () => {
             <X size={16} />
           </button>
         </div>
-      )}
+      )} */}
 
       <div className={`container mx-auto px-4 md:px-8 flex items-center justify-between transition-all duration-500 ${isScrolled ? 'py-3' : 'py-6'}`}>
 
